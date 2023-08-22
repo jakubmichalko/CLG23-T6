@@ -1,6 +1,33 @@
 .mainContainer {
-    background-color: rgb(84, 46, 113);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-areas: 
+    'header header header header rightSide'
+    'leftSide main main main rightSide'
+    'leftSide main main main rightSide'
+    'leftSide main main main rightSide'
+    'leftSide main main main rightSide'
+    'leftSide main main main rightSide'
+    'footer footer footer footer footer';
+}
+
+.header {
+    grid-area: header;
+    background-color: antiquewhite;
+}
+
+.leftSide {
+    grid-area: leftSide;
+    background-color: aqua;
+}
+
+.rightSide {
+    grid-area: rightSide;
+    background-color: aquamarine;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: blue;
 }
