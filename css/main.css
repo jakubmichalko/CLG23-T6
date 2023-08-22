@@ -1,24 +1,38 @@
 .mainContainer {
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 200px 2000px 100px;
+    grid-template-columns: 40px auto 40px;
+    grid-template-rows: 80px 1200px 100px;
     grid-template-areas: 
-    'header header header header'
-    'leftSide main main main'
-    'footer footer footer footer';
+    'header header header'
+    'leftSide main rightSide'
+    'footer footer footer';
 }
 
 .header {
     grid-area: header;
-    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(207, 168, 136);
+}
+
+.main {
+    grid-area: main;
+    background-color: rgb(237, 224, 212);
 }
 
 .leftSide {
     grid-area: leftSide;
-    background-color: aqua;
+    background-color: rgb(207, 168, 136);
+}
+
+.rightSide {
+    grid-area: rightSide;
+    background-color:  rgb(207, 168, 136);
 }
 
 .footer {
     grid-area: footer;
-    background-color: blue;
+    background-color: rgb(221, 184, 146);
 }
