@@ -1,15 +1,11 @@
 .mainContainer {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 200px 2000px 100px;
     grid-template-areas: 
-    'header header header header rightSide'
-    'leftSide main main main rightSide'
-    'leftSide main main main rightSide'
-    'leftSide main main main rightSide'
-    'leftSide main main main rightSide'
-    'leftSide main main main rightSide'
-    'footer footer footer footer footer';
+    'header header header header'
+    'leftSide main main main'
+    'footer footer footer footer';
 }
 
 .header {
@@ -20,11 +16,6 @@
 .leftSide {
     grid-area: leftSide;
     background-color: aqua;
-}
-
-.rightSide {
-    grid-area: rightSide;
-    background-color: aquamarine;
 }
 
 .footer {
