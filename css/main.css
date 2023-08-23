@@ -19,10 +19,49 @@
 
 .main {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
     grid-area: main;
     background-color: rgb(237, 224, 212);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    'info info'
+    'Leva Prava'
+    'Leva Prava'
+    'Leva Prava'
+    'Leva Prava'
+    'Leva Prava';
+
+}
+
+.info {
+    grid-area: info;
+    background-color: rgb(237, 224, 212);
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.Left {
+    grid-area: Leva;
+    background-color: rgb(237, 224, 212);
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.Right {
+    grid-area: Prava;
+    background-color: rgb(237, 224, 212);
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
 }
 
 .leftSide {
