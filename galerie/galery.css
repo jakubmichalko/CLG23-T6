@@ -76,3 +76,12 @@ justify-content: space-around;}
     grid-area: footer;
     background-color: rgb(221, 184, 146);
 }
+
+img {
+    transition: scale 0.2s;
+}
+
+img:hover {
+    scale: 1.2;  
+}
+    
