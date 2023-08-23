@@ -1,11 +1,11 @@
 .mainContainer {
     display: grid;
-    grid-template-columns: 40px auto 40px;
+    grid-template-columns: auto;
     grid-template-rows: 80px 1350px 100px;
     grid-template-areas: 
-    'header header header'
-    'leftSide main rightSide'
-    'footer footer footer';
+    'header'
+    'main'
+    'footer';
 }
 
 .header {
@@ -76,3 +76,12 @@ justify-content: space-around;}
     grid-area: footer;
     background-color: rgb(221, 184, 146);
 }
+
+img {
+    transition: scale 0.2s;
+}
+
+img:hover {
+    scale: 1.2;  
+}
+    
