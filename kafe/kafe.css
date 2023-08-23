@@ -1,0 +1,39 @@
+.mainContainer {
+    display: grid;
+    grid-template-columns: 40px auto 40px;
+    grid-template-rows: 80px 1200px 100px;
+    grid-template-areas: 
+    'header header header'
+    'leftSide main rightSide'
+    'footer footer footer';
+}
+
+.header {
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(207, 168, 136);
+}
+
+.main {
+    grid-area: main;
+    background-color: rgb(237, 224, 212);
+    
+}
+
+.leftSide {
+    grid-area: leftSide;
+    background-color: rgb(207, 168, 136);
+}
+
+.rightSide {
+    grid-area: rightSide;
+    background-color:  rgb(207, 168, 136);
+}
+
+.footer {
+    grid-area: footer;
+    background-color: rgb(221, 184, 146);
+}
