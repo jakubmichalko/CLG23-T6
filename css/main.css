@@ -1,11 +1,11 @@
 .mainContainer {
     display: grid;
-    grid-template-columns: 40px auto 40px;
     grid-template-rows: 80px 1200px 100px;
+    grid-template-columns: auto;
     grid-template-areas: 
-    'header header header'
-    'leftSide main rightSide'
-    'footer footer footer';
+    'header'
+    'main'
+    'footer';
 }
 
 .header {
@@ -64,15 +64,6 @@
     align-items: center;
 }
 
-.leftSide {
-    grid-area: leftSide;
-    background-color: rgb(207, 168, 136);
-}
-
-.rightSide {
-    grid-area: rightSide;
-    background-color:  rgb(207, 168, 136);
-}
 
 .footer {
     grid-area: footer;
