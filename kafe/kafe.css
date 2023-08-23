@@ -42,7 +42,10 @@
 
 .obrazky img {
     padding: 10px;
+    transition: scale 0.2s;
+    
 }
+img:hover{scale: 1.2;}
 
 
 
