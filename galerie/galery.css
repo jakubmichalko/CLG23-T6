@@ -1,7 +1,7 @@
 .mainContainer {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 80px 1350px 160px;
+    grid-template-rows: 80px 1400px 160px;
     grid-template-areas: 
     'header'
     'main'
@@ -20,7 +20,8 @@
 .main {
     grid-area: main;
     background-color: rgb(237, 224, 212);
-    padding-left: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
 
     .prostory {
         padding-right: 20px;
