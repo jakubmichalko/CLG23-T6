@@ -6,6 +6,7 @@
     'header header header'
     'main main main'
     'footer footer footer';
+    margin: 0%;
 }
 
 .header {
@@ -17,7 +18,7 @@
     background-color: rgb(207, 168, 136);
 }
 
-.main {
+.main { 
     display: flex;
     grid-area: main;
     flex-direction: column;
