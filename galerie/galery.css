@@ -81,7 +81,9 @@ img {
     transition: scale 0.2s;
 }
 
-img:hover {
-    scale: 1.2;  
+.header>a>img:hover{
+    scale: 1.2;
 }
-    
+.prostory>div>img:hover{
+    scale: 1.2;
+}

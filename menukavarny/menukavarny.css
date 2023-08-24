@@ -83,10 +83,11 @@ a {
     display: flex;
     justify-content: space-around;
 }
-
-.obrazky img {
-    padding: 10px;
+ 
+img {
     transition: scale 0.2s;
-    
 }
-img:hover{scale: 1.2;}
+
+a>img:hover{
+    scale: 1.2;
+}
