@@ -25,7 +25,7 @@ body {
 .main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     grid-area: main;
     background-color: rgb(237, 224, 212);
@@ -62,11 +62,13 @@ body {
 
 .Right1 {
     grid-area: Prava1;
+    width: 15vw;
+    height: 10vw;
     background-color: rgb(237, 224, 212);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+}
+
+.Right1 img{
+    object-fit: cover;
 }
 
 .Right2 {
@@ -76,6 +78,10 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+}
+
+.Right2 img{
+    object-fit: cover;
 }
 
 .Right3 {
@@ -109,3 +115,16 @@ body {
     grid-area: footer;
     background-color: rgb(221, 184, 146);
 }
+
+.obrazky {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.obrazky img {
+    padding: 10px;
+    transition: scale 0.2s;
+    
+}
+img:hover{scale: 1.2;}

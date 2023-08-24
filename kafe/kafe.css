@@ -1,7 +1,7 @@
 .mainContainer {
     display: grid;
     grid-template-columns:auto;
-    grid-template-rows: 80px 1000px 100px;
+    grid-template-rows: 80px 1000px 130px;
     grid-template-areas:
         'header'
         'main'
