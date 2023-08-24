@@ -86,4 +86,13 @@ img {
 }
 .prostory>div>img:hover{
     scale: 1.2;
-}
+} 
+
+
+.nabidka1>div>img:hover{
+    scale: 1.2;
+} 
+
+.nabidka2>div>img:hover{
+    scale: 1.2;
+} 
