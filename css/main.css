@@ -111,4 +111,8 @@ body {
     padding: 10px;
     transition: scale 0.2s;
     
+} 
+
+a>img:hover{
+    scale: 1.2;
 }
