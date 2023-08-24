@@ -5,7 +5,7 @@ body {
 
 .mainContainer {
     display: grid;
-    grid-template-rows: 80px 1200px 130px;
+    grid-template-rows: 80px 2000px 130px;
     grid-template-columns: auto;
     grid-template-areas: 
     'header header header'
@@ -31,14 +31,14 @@ body {
     background-color: rgb(237, 224, 212);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 450px 350px 300px 300px 300px auto;
     grid-template-areas:
     'info info'
-    'Leva Prava1'
-    'Leva Prava2'
-    'Leva Prava3'
-    'Leva Prava4'
-    'Leva Prava5';
+    'R1 R1'
+    'R2 R2'
+    'R3 R3'
+    'R4 R4'
+    'R5 R5';
 
 }
 
@@ -51,28 +51,8 @@ body {
     align-items: center;
 }
 
-.Left {
-    grid-area: Leva;
-    background-color: rgb(237, 224, 212);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.Right1 {
-    grid-area: Prava1;
-    width: 15vw;
-    height: 10vw;
-    background-color: rgb(237, 224, 212);
-}
-
-.Right1 img{
-    object-fit: cover;
-}
-
-.Right2 {
-    grid-area: Prava2;
+.R1 {
+    grid-area: R1;
     background-color: rgb(237, 224, 212);
     display: flex;
     flex-direction: column;
@@ -80,21 +60,8 @@ body {
     align-items: center;
 }
 
-.Right2 img{
-    object-fit: cover;
-}
-
-.Right3 {
-    grid-area: Prava3;
-    background-color: rgb(237, 224, 212);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-.Right4 {
-    grid-area: Prava4;
+.R2 {
+    grid-area: R2;
     background-color: rgb(237, 224, 212);
     display: flex;
     flex-direction: column;
@@ -102,13 +69,31 @@ body {
     align-items: center;
 }
 
-.Right5 {
-    grid-area: Prava5;
+.R3 {
+    grid-area: R3;
     background-color: rgb(237, 224, 212);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
+}
+
+.R4 {
+    grid-area: R4;
+    background-color: rgb(237, 224, 212);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.R5 {
+    grid-area: R5;
+    background-color: rgb(237, 224, 212);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .footer {
